@@ -20,22 +20,27 @@
     <h2>Реестр <small>дискфалифицированных лиц</small></h2>
 </div>
 
-<div class="input-group">
-    <span class="input-group-addon" id="sizing-addon2">@</span>
-    <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2">
-</div>
 
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h3 class="panel-title">Panel title</h3>
-    </div>
-    <div class="panel-body">
-        Panel content
-    </div>
-</div>
 
-<button type="button" class="btn btn-success">Найти</button>
+{{--<div class="panel panel-default">--}}
+    {{--<div class="panel-heading">--}}
+        {{--<h3 class="panel-title">Panel title</h3>--}}
+    {{--</div>--}}
+    {{--<div class="panel-body">--}}
+        {{--Panel content--}}
+    {{--</div>--}}
+{{--</div>--}}
+
+<form>
+    <div class="input-group">
+        <span class="input-group-addon" id="sizing-addon2"> Фамилия </span>
+        <input type="text" class="form-control" placeholder="Фамилия" aria-describedby="sizing-addon2">
+    </div><br><br>
+    <button type="submit" class="btn btn-success">Найти</button>
+</form>
+
+
 
 
 
